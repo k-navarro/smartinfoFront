@@ -1,11 +1,11 @@
 
-const Alerta = ({alerta}) => {
-    return (
-      <div className={` 'from-red-400 to-red-600' 'from-sky-400 to-sky-600'}
+const Alerta = ({ alerta }) => {
+  return (
+    <div className={` 'from-red-400 to-red-600' 'from-sky-400 to-sky-600'}
       bg-gradient-to-br text-center p-3 rounded-xl uppercase text-blue-500 font-bold text-sm my-10 `}>
-        {alerta.msg}
-      </div>
-    )
-  }
-  
-  export default Alerta
+      {alerta.msg}
+    </div>
+  )
+}
+
+export default Alerta
