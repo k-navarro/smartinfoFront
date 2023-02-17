@@ -9,6 +9,7 @@ const App = () => {
     <React.StrictMode>
     <Router>
     <Routes>
+      <Route path="/" element={<Login/>}/>
       <Route path="Registro" element={<Registro/>}/>
       <Route path= "login" element={<Login/>}/>
       <Route path="proyectos" element={<Proyectos/>}/>
